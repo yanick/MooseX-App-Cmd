@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 41ab8d2fee4d3585fa96cf7271185d7981770242 Changes
+SHA1 c740fe5cba821190dc99d8baf6d996a9094bea70 MANIFEST
+SHA1 190e9058eb9c6446a1a3f3ddf15b082f1ecde152 MANIFEST.SKIP
+SHA1 9aadae0336be8de9e394efa63925c46e63ff739b META.yml
+SHA1 dc4043304d3cfc51685c6617e9168c2698494f06 Makefile.PL
+SHA1 4a94f61c2fba8d1614bc31f94a425f1eee2b7302 lib/MooseX/App/Cmd.pm
+SHA1 7e9ff06775478b85c1546427eb78446e8077f598 lib/MooseX/App/Cmd/Command.pm
+SHA1 6fd801b5eb71c402d484782b81d0f4a8379a7f36 t/00-load.t
+SHA1 f952086edd71b83111f01d208454c51bc46dbf84 t/basic.t
+SHA1 622180410b221c9662e86ffd412f949c2eba8768 t/build_emulates_new.t
+SHA1 efd7c468870324bf54d442e06ea93f83dea173f8 t/configfile.t
+SHA1 2b412bcfb4193c32081d4b100e7fafd1381ff4ad t/lib/Test/ConfigFromFile.pm
+SHA1 c9829c568c78a7e48c976dbbe390a558dcf8fcb1 t/lib/Test/ConfigFromFile/Command/moo.pm
+SHA1 29e252d185222483c06a9af5070ea76942d4f64e t/lib/Test/ConfigFromFile/config.yaml
+SHA1 7c9fb28b6e6d4095bce936e3cc4c7ec2456aca10 t/lib/Test/MyCmd.pm
+SHA1 6421073332e3f07899509b35b9973d95c58a877c t/lib/Test/MyCmd/Command/bark.pm
+SHA1 1e2fc7e3c247156590ae2e11ddd61460dff2a3cf t/lib/Test/MyCmd/Command/frobulate.pm
+SHA1 f87824cb16d7cb5e8636376363ca3043e25afdd9 t/lib/Test/MyCmd/Command/justusage.pm
+SHA1 a0e952beb3dc6eaf2de0b3aefc80fb57a1c6e409 t/lib/Test/MyCmd/Command/stock.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.12 (Darwin)
+
+iEYEARECAAYFAkqyxaMACgkQVCwRwOvSdBjFsgCgkhKvchJwNzIacW4huwdglOqD
+2T8AnAuQLW9I4Vc5ugmnAKs4CDkAaqn1
+=A1Ra
+-----END PGP SIGNATURE-----

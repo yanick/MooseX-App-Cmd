@@ -1,0 +1,20 @@
+Changes
+lib/MooseX/App/Cmd.pm
+lib/MooseX/App/Cmd/Command.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+t/00-load.t
+t/basic.t
+t/build_emulates_new.t
+t/configfile.t
+t/lib/Test/ConfigFromFile.pm
+t/lib/Test/ConfigFromFile/Command/moo.pm
+t/lib/Test/ConfigFromFile/config.yaml
+t/lib/Test/MyCmd.pm
+t/lib/Test/MyCmd/Command/bark.pm
+t/lib/Test/MyCmd/Command/frobulate.pm
+t/lib/Test/MyCmd/Command/justusage.pm
+t/lib/Test/MyCmd/Command/stock.pm
+META.yml                                 Module meta-data (added by MakeMaker)
+SIGNATURE                                Public-key signature (added by MakeMaker)
