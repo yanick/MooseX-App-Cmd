@@ -13,7 +13,7 @@ BEGIN
     if ($@) {
         plan( skip_all => "These tests require MooseX::ConfigFromFile and YAML" );
     } else {
-        plan( tests => 2 );
+        plan( tests => 3 );
     }
 }
 
@@ -41,5 +41,16 @@ my $cmd = Test::ConfigFromFile->new;
     $@,
     qr/cows go moo1 moo2 moo3/,
     "command died with the correct string",
+  );
+}
+
+{
+  local @ARGV = qw(boo);
+  eval { $cmd->run };
+  
+  like(
+    $@,
+    qr/ghosts go moo1 moo2 moo3/,
+    "default configfile() takes a sub",
   );
 }
